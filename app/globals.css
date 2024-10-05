@@ -159,9 +159,9 @@ main {
 }
 
 .post img {
+  object-fit: cover;
   width: 8rem;
   height: 6rem;
-  object-fit: cover;
 }
 
 .post-content {
@@ -183,6 +183,13 @@ main {
 .post header p {
   font-size: 0.9rem;
   color: #b1a9ac;
+}
+
+.post-image{
+  position: relative;
+  width: 8rem;
+  height: 6rem;
+
 }
 
 .like-button {
